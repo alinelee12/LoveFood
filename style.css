@@ -1,0 +1,367 @@
+@font-face {
+  font-family: KayakSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url(fonts/Kayak\ Sans\ Regular.otf);
+}
+*{
+  font-family:KayakSans;
+  
+}
+h1 {
+  color: #000;
+  font-weight: 600;
+  font-size: 3rem;
+  margin-top: 12vw;
+}
+h2{
+  color: #000;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+a{
+  color:#fff;
+}
+
+a:hover{
+  color:white;
+  opacity: .5;
+}
+span{
+  color: #5fb709;
+}
+option{
+  color:#262626;
+}
+
+.custom-select{
+  background-color: transparent;
+  color:white;
+  border:none;
+  border-radius:none;
+}
+.btn-primary{
+  background-color: #5fb709;
+  color:white;
+  border: 1px solid #5fb709;
+  padding:13px 30px;
+}
+.btn-primary:hover{
+  background-color:white;
+  color:#5fb709;
+  border: 1px solid #5fb709;
+}
+.header {
+  background-image: url('img/banner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 45vw;
+}
+
+header p{
+  color:#000;
+}
+
+.round{
+  top:50%;
+  width:31vw;
+}
+.nav-search{
+  border-bottom:1px solid #5fb709;
+  width:50%
+}
+.fa-search{
+  color:#5fb709;
+  margin-left:8vw;;
+}
+.nav-search-form{
+border:none;
+background-color:transparent;;
+}
+.navbar-toggler {
+  float:right;
+  margin-top:-28px;
+}
+.navbar-collapse{
+  background-color:#5fb709;
+  color:white;
+  float: right !important;
+  width: 25vw;
+  position:absolute;
+  margin-top:41vw;
+  overflow-x: hidden;
+  z-index:1000;
+  margin-left:70%;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  border-radius:2px;
+}
+.avatar{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border:1px solid #c4c4c4;
+  margin-right: 1vw;
+  
+}
+.user{
+  margin-top:1vw;
+}
+.user p{
+  color:white;
+  font-weight: 500;
+}
+.nav-user{
+  text-align: center;
+  display:table-row-group !important;
+
+}
+.social-menu{
+  margin-bottom:2vw;
+}
+.fa-shopping-bag{
+  color: #326006;
+}
+.navbar-collapse-card{
+  background-color:#5fb709;
+  color:white;
+  float: right !important;
+  width: 45vw;
+  position:absolute;
+  margin-top:35vw;
+  z-index:1000;
+  margin-left:50%;
+  border-radius:2px;
+}
+.card-image{
+  width:100%;
+}
+#search{
+  min-height: 20vw;
+}
+.text-search{
+  padding-right: 12vw;
+  margin-top:3vw;
+}
+.text-search-form{
+  padding-right: 12vw;
+  margin-top:3vw;
+}
+.search-input{
+  margin-right: .5vw;
+  min-width:250px !important;
+  font-size:.6rem !important;
+}
+#mobile{
+  background-image: url('img/LocalBackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 73vw;
+}
+#mobile h2{
+  margin-bottom:2vw;
+}
+.mobile-text{
+  margin-top:15vw;
+}
+.forma{
+  margin-bottom:6vw;
+}
+#promotional{
+  background-image: url('img/PlaceorderBackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 45vw;
+}
+#promotional h2{
+  margin-top:12vw;
+  margin-bottom:2vw;
+}
+#promotional .forma{
+margin-top:10vw;
+}
+#eats{
+  background-image: url('img/TrackYourFoodBackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 73vw;
+}
+.eats-text{
+  margin-top:27vw;
+}
+#appontap{
+  background-image: url('img/TapBackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 47vw;
+}
+#appontap .forma{
+margin-top:2vw;
+margin-bottom:8vw;
+margin-left:-7vw;
+}
+#appontap .app-icon{
+  width:130%;
+  }
+#appontap .app-icon-store{
+    width:150px;
+    margin-right: 1vw;
+  }
+#appontap .icon-store{
+    margin-left:2px;
+    margin-top:3vw;
+   }
+#info-before{
+  height: 32vw;
+  background:linear-gradient(170deg,white,white 40%,  #edeef0 40%,  #edeef0); 
+}   
+#info{
+  margin-top:-130px;
+  height: 27vw;
+  background-color:#edeef0;
+}
+#info .text{
+  min-height: 6vw;
+}
+#info .vertical-line {
+  height: 23vw;
+  border-right: 2px solid #d9dadb;
+}
+.page-footer{
+  background-color:#262626;
+  color:white;
+}
+#footer .icon-store{
+  margin-left:0;
+}
+#footer .app-icon-store{
+  width:100px;
+  margin-right: 1vw;;
+}
+#footer .fb-ic{
+  margin-right: 1vw;
+}
+.separator{
+  border-bottom:1px solid white;
+  height: 90px;
+}
+.footer-list{
+  margin-top:10px;
+}
+.copy{
+  color:#2f2f2f;
+  font-size:1vw;
+}
+
+@media screen and (max-width: 480px){
+  h1{
+    font-size: 1.2rem;
+  }
+  h2{
+    font-size: .9rem;
+  }
+  h3{
+    font-size: .7rem;
+    margin-top: 2vw;
+  }
+  p{
+    font-size: .5rem;
+  }
+  header{
+    height: 65vw;
+  }
+  .navbar-collapse{
+    width:64vw;
+    margin-top: 137vw;
+    margin-left:30%;
+  }
+  .user{
+    text-align:center;
+  }
+  .navbar-collapse-card{
+    margin-top:125vw;
+    width:64vw;
+    margin-left:30%;
+  }
+  .btn-primary{
+    font-size:.8rem;
+    padding:5px 10px;
+  }
+  .banner-text{
+    width:70%;
+  }
+  #search{
+    margin-top:7vw;
+    text-align:center;
+    width: 100%;;
+  }
+  #search .btn{
+    margin-top:2vw;
+  }
+  .search.input{
+    width:100%;
+  }
+  .forma{
+    width:100px;
+    margin-left: -20px;
+  }
+  .forma-icone{
+    width:56%;
+  }
+  .mobile-text{
+    width:60%;
+  }
+  .text-search{
+    margin-left:31%
+  }
+  #search .form-inline{
+  flex-flow: row;
+
+  }
+  .eats-text{
+    width:60%;
+  }
+  #appontap{
+    text-align:center;
+    height: 63vw;
+  }
+  #appontap .forma{
+    margin-left:1vw;
+  }
+  #appontap .app-icon{
+    margin-bottom: 2vw;
+    width: 12%;
+  }
+  #appontap .icon-store{
+    margin-left:19%;
+  }
+  #appontap .app-icon-store{
+    width:29%;
+
+  }
+  #info{
+    height: 204px;
+    margin-top:0;
+  }
+  #info .vertical-line {
+    height: 53vw;
+  }
+  #info .food{
+    width:50%
+  }
+  #info > div > div > div > div:nth-child(2) > img{
+    width:32px;
+  }
+
+  .form-inline{
+    flex-flow:row nowrap;
+    width: 30%;
+  }
+  .nav-search{
+    width:90%;
+  }
+}
